@@ -67,3 +67,18 @@ a{
 .left-side{
     margin-right: 100px;
 }
+
+.first-p{
+    color:hsl(26, 100%, 55%);
+    font-weight: bold;
+    background-color: hsl(25, 100%, 94%);
+    width: 168px;
+}
+
+.right-side h2{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    line-height: 1.0;
+}
