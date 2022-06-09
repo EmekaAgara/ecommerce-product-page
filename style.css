@@ -52,7 +52,7 @@ a{
 }
 
 .big-img img{
-    max-width: 450px;
+    max-width: 437px;
     border-radius: 7px;
 }
 
@@ -72,7 +72,12 @@ a{
     color:hsl(26, 100%, 55%);
     font-weight: bold;
     background-color: hsl(25, 100%, 94%);
-    width: 168px;
+    width: 160px;
+    font-size: 15px;
+}
+
+.right-side{
+    padding-top: 80px;
 }
 
 .right-side h2{
@@ -81,4 +86,78 @@ a{
     padding-bottom: 25px;
     padding-top: 15px;
     line-height: 1.0;
+}
+
+.second-p{
+    color: hsl(219, 9%, 45%);
+    padding-bottom: 20px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.price h3{
+    padding-right: 15px;
+}
+
+.price p{
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    background-color: hsl(25, 100%, 94%);
+    
+}
+
+.price-p{
+    color: hsl(220, 14%, 75%);
+    font-weight: bold;
+    text-decoration: line-through;
+    padding-bottom: 10px;
+}
+
+.add-cart-box{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    margin-right: 15px;
+    /* margin-top: 15px; */
+    padding-top: 10px;
+    text-align: center;
+}
+
+.add-cart{
+    display: flex;
+}
+
+button{
+    background-color: hsl(26, 100%, 55%);
+    font: bold;
+    border-radius: 5px;
+    border: none;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+button img {
+    max-width: 16px;
+    color: white;
+    padding-right: 10px;
+}
+
+.zero{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.plus, .minus{
+    cursor: pointer;
 }
